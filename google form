@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google sign in</title>
+      <style>
+        #div1{
+            border: 1px solid #dadcdf;
+            width: 500px;
+            margin-left: 500px;
+            margin-top: 80px;
+            padding-top: 30px;
+            padding-bottom: 70px;
+        }
+        #G{
+           color: rgb(5, 141, 219);
+           font-size: 30px;
+        }
+        #O{
+           color: rgb(255, 60, 0);
+           font-size: 25;
+        }
+        #O2{
+           color: orange;
+        }
+        #g2{
+           color: rgb(5, 141, 219);
+           font-size: 20px;
+        }
+        #l{
+           color: green;
+           font-size: 25px;
+        }
+        #e{
+           color: rgb(255, 60, 0);
+        }
+        h3{
+            font-size: 30px;
+            width: 150px;
+            height: 50px;
+            margin-left: 200px;
+            margin-bottom: 0px;
+        }
+       #p1{
+            margin-left: 220px;
+            font-size: 27px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+       #p2{
+            margin-left: 150px;
+            font-size: 20px;
+            margin-top: 0px;
+            color: #5c5959;
+        }
+        input[type=text]{
+            width: 370px;
+            height: 35px;
+            padding: 16px;
+            margin-left: 50px;
+            font-size: 18px;
+            border-radius:8px ;
+            border: 1px solid #dadcdf;
+            margin-top: 20px;
+            margin-bottom: 12px;
+        }
+        #a1{
+            margin-left: 50px;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: bold;
+            color: #659adf;
+        }
+        #p3{
+            font-size: 18px;
+            margin-left: 50px;
+            margin-top: 57px;
+            opacity: 0.8;
+            margin-bottom: 0px;
+        }
+        #a2{
+            font-size: 19px;
+            text-decoration: none;
+            margin-left: 50px;
+            font-weight: bold;
+            color: #659adf;
+        }
+        #a3{
+            font-size: 19px;
+            text-decoration: none;
+            margin-left: 50px;
+            margin-top: 40px;
+            color: #659adf;
+            font-weight: bold;
+        }
+        button{
+            margin-left: 180px;
+            color: white;
+            background-color: #1676f3;
+            font-size: 18px;
+            font-weight: bold;
+            width: 95px;
+            border: 1px solid #1676f3;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        button:hover{
+            cursor: pointer;
+            opacity: 0.9;
+        }
+        #div2{
+            margin-left: 460px;
+        }
+        label{
+            font-size: 17px;
+            opacity: 0.8;
+        }
+        select{
+            border: 1px solid white;
+        }
+        ul{
+            list-style-type: none;
+            margin-top: 30px;
+        }
+        li{
+            float: left;
+        }
+        #help{
+            margin-left: 146px;
+        }
+        #privacy{
+            margin-left: 30px;
+        }
+        #terms{
+            margin-left: 30px;
+        }
+        #a4{
+            text-decoration: none;
+            color: #5c5959;
+            font-size: 16px;
+        }
+    </style> 
+</head>
+<body>
+    <div id="div1">
+        <h3>
+            <span id="G">G</span>
+            <span id="O">o</span>
+            <span id="O2">o</span>
+            <span id="g2">g</span>
+            <span id="l">l</span>
+            <span id="e">e</span>      
+        </h3>
+            <p id="p1">Sing in </p>
+            <p id="p2">Use your Google Account</p>
+            <input type="text" name="email" placeholder="Email or phone" required>
+            <a id="a1" href="#">Forgot email?</a>
+            <p id="p3">not your computer? Use Guest mode to sign in privately.</p>
+            <a id="a2" href="#">Learn more</a><br><br><br><br>
+            <a id="a3" href="#">Create account</a>
+            <button>Next</button>
+    </div>
+    <div id="div2">
+        <ul>
+            <li>
+                <label>English(united states)</label>
+                <select name="languages" id="">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>     
+                </select>
+            </li>
+            <li id="help"><a id="a4" href="#">Help</a></li>
+            <li id="privacy"><a id="a4" href="#">Privacy</a></li>
+            <li id="terms"><a id="a4" href="#">Terms</a></li>
+        </ul>
+    </div>
+</body>
+</html>
